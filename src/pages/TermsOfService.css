@@ -1,0 +1,95 @@
+.terms-of-service-page {
+  padding: 120px 0 60px;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.terms-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.terms-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.terms-header .subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.terms-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.terms-section {
+  margin-bottom: 50px;
+}
+
+.terms-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+}
+
+.terms-section p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+.terms-section ul {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 20px;
+  padding-left: 25px;
+}
+
+.terms-section li {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info p strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .terms-of-service-page {
+    padding: 100px 20px 40px;
+  }
+
+  .terms-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .terms-header .subtitle {
+    font-size: 1rem;
+  }
+
+  .terms-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact-info {
+    padding: 20px;
+  }
+}

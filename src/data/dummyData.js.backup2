@@ -1,0 +1,1000 @@
+// Fallback product data for when InsForge is not available
+const fallbackProducts = [{
+        id: 'm1',
+        name: 'Classic Slim Fit Suit',
+        category: 'Men',
+        subCategory: 'Suits',
+        price: 299.00,
+        images: [
+            'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg'
+        ],
+        description: 'Sharp tailored slim fit suit perfect for formal occasions',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'm2',
+        name: 'Casual Oxford Button Shirt',
+        category: 'Men',
+        subCategory: 'Shirts',
+        price: 65.00,
+        images: [
+            'https://images.pexels.com/photos/297933/pexels-photo-297933.jpeg'
+        ],
+        description: 'Crisp oxford weave shirt ideal for smart casual dressing',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'm3',
+        name: 'Slim Fit Chino Pants',
+        category: 'Men',
+        subCategory: 'Bottoms',
+        price: 75.00,
+        images: [
+            'https://images.pexels.com/photos/52518/jeans-pants-blue-shop-52518.jpeg'
+        ],
+        description: 'Modern slim fit chinos crafted from stretch cotton blend',
+        sizes: ['30', '32', '34', '36'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'm4',
+        name: 'Leather Biker Jacket',
+        category: 'Men',
+        subCategory: 'Outerwear',
+        price: 220.00,
+        images: [
+            'https://images.pexels.com/photos/1124468/pexels-photo-1124468.jpeg'
+        ],
+        description: 'Premium genuine leather jacket with edgy biker styling',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'm5',
+        name: 'Classic White Crew Tee',
+        category: 'Men',
+        subCategory: 'T-Shirts',
+        price: 35.00,
+        images: [
+            'https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg'
+        ],
+        description: 'Soft combed cotton crew neck tee for everyday casual wear',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'm6',
+        name: 'Tailored Blazer',
+        category: 'Men',
+        subCategory: 'Outerwear',
+        price: 175.00,
+        images: [
+            'https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg'
+        ],
+        description: 'Structured single-breasted blazer with modern slim lapels',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'm7',
+        name: 'Relaxed Fit Denim Jeans',
+        category: 'Men',
+        subCategory: 'Bottoms',
+        price: 90.00,
+        images: [
+            'https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg'
+        ],
+        description: 'Classic relaxed fit denim with authentic washed finish',
+        sizes: ['30', '32', '34', '36'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'm8',
+        name: 'Merino Wool Sweater',
+        category: 'Men',
+        subCategory: 'Sweaters',
+        price: 120.00,
+        images: [
+            'https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg'
+        ],
+        description: 'Lightweight merino wool knit with a refined minimalist look',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'm9',
+        name: 'Linen Resort Shirt',
+        category: 'Men',
+        subCategory: 'Shirts',
+        price: 70.00,
+        images: [
+            'https://images.pexels.com/photos/2466756/pexels-photo-2466756.jpeg'
+        ],
+        description: 'Breathable linen fabric perfect for warm weather styling',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'm10',
+        name: 'Track Jogger Pants',
+        category: 'Men',
+        subCategory: 'Bottoms',
+        price: 60.00,
+        images: [
+            'https://images.pexels.com/photos/4384679/pexels-photo-4384679.jpeg'
+        ],
+        description: 'Comfortable tapered joggers with sporty elastic cuff design',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'm11',
+        name: 'Quilted Puffer Vest',
+        category: 'Men',
+        subCategory: 'Outerwear',
+        price: 95.00,
+        images: [
+            'https://images.pexels.com/photos/6311641/pexels-photo-6311641.jpeg'
+        ],
+        description: 'Lightweight quilted vest with insulated fill for layering',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'm12',
+        name: 'Polo Shirt Pique Cotton',
+        category: 'Men',
+        subCategory: 'Shirts',
+        price: 55.00,
+        images: [
+            'https://images.pexels.com/photos/3622608/pexels-photo-3622608.jpeg'
+        ],
+        description: 'Classic pique cotton polo shirt with ribbed collar and cuffs',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'm13',
+        name: 'Formal Dress Shirt',
+        category: 'Men',
+        subCategory: 'Shirts',
+        price: 80.00,
+        images: [
+            'https://images.pexels.com/photos/2182975/pexels-photo-2182975.jpeg'
+        ],
+        description: 'Crisp poplin weave dress shirt with French tuck silhouette',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'm14',
+        name: 'Cargo Utility Shorts',
+        category: 'Men',
+        subCategory: 'Bottoms',
+        price: 50.00,
+        images: [
+            'https://images.pexels.com/photos/1153369/pexels-photo-1153369.jpeg'
+        ],
+        description: 'Durable multi-pocket cargo shorts with relaxed summer fit',
+        sizes: ['30', '32', '34', '36'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'm15',
+        name: 'Hooded Zip-Up Sweatshirt',
+        category: 'Men',
+        subCategory: 'Outerwear',
+        price: 85.00,
+        images: [
+            'https://images.pexels.com/photos/6311387/pexels-photo-6311387.jpeg'
+        ],
+        description: 'Cozy fleece zip-up hoodie with kangaroo pocket and drawstring',
+        sizes: ['S', 'M', 'L', 'XL'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'w1',
+        name: 'Elegant Satin Slip Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 120.00,
+        images: [
+            'https://images.pexels.com/photos/20851443/pexels-photo-20851443.jpeg'
+        ],
+        description: 'Smooth satin finish with a sleek minimal silhouette',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w2',
+        name: 'Floral Summer Maxi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 95.00,
+        images: [
+            'https://images.pexels.com/photos/10324427/pexels-photo-10324427.jpeg'
+        ],
+        description: 'Lightweight fabric with vibrant floral print for summer',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w3',
+        name: 'Classic Bodycon Midi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 110.00,
+        images: [
+            'https://images.pexels.com/photos/26425554/pexels-photo-26425554.jpeg'
+        ],
+        description: 'Fitted design highlighting curves with modern elegant style',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'w4',
+        name: 'Chic Off-Shoulder Evening Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 140.00,
+        images: [
+            'https://images.pexels.com/photos/31556459/pexels-photo-31556459.jpeg'
+        ],
+        description: 'Stylish off shoulder design perfect for evening occasions',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w5',
+        name: 'Minimalist Linen Wrap Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 85.00,
+        images: [
+            'https://images.pexels.com/photos/31556462/pexels-photo-31556462.jpeg'
+        ],
+        description: 'Breathable linen fabric with clean wrap style design',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w6',
+        name: 'Silk A-Line Party Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 150.00,
+        images: [
+            'https://images.pexels.com/photos/11046451/pexels-photo-11046451.jpeg'
+        ],
+        description: 'Soft silk material with flattering A-line party fit',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w7',
+        name: 'Boho Printed Maxi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 105.00,
+        images: [
+            'https://images.pexels.com/photos/5690224/pexels-photo-5690224.jpeg'
+        ],
+        description: 'Relaxed boho style with colorful prints and flowy fit',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w8',
+        name: 'Ribbed Knit Casual Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 75.00,
+        images: [
+            'https://images.pexels.com/photos/13715555/pexels-photo-13715555.jpeg'
+        ],
+        description: 'Comfortable ribbed knit fabric ideal for daily wear',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w9',
+        name: 'Pleated Chiffon Midi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 130.00,
+        images: [
+            'https://images.pexels.com/photos/9563073/pexels-photo-9563073.jpeg'
+        ],
+        description: 'Elegant pleated chiffon design with soft flowing texture',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'w10',
+        name: 'Tailored Blazer Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 160.00,
+        images: [
+            'https://images.pexels.com/photos/30985122/pexels-photo-30985122.jpeg'
+        ],
+        description: 'Structured blazer style dress with sharp modern look',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w11',
+        name: 'Vintage Polka Dot Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 90.00,
+        images: [
+            'https://images.pexels.com/photos/19881409/pexels-photo-19881409.jpeg'
+        ],
+        description: 'Retro inspired polka dot design with timeless appeal',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w12',
+        name: 'Asymmetric Hem Designer Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 170.00,
+        images: [
+            'https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg'
+        ],
+        description: 'Unique asymmetric hem with bold contemporary fashion statement',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w13',
+        name: 'Ruffle Sleeve Cocktail Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 125.00,
+        images: [
+            'https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg'
+        ],
+        description: 'Playful ruffle sleeves with a feminine cocktail silhouette',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w14',
+        name: 'Deep V-Neck Velvet Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 145.00,
+        images: [
+            'https://images.pexels.com/photos/7691168/pexels-photo-7691168.jpeg'
+        ],
+        description: 'Luxurious velvet fabric with a stunning deep V-neck cut',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'w15',
+        name: 'Tie-Dye Sundress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 80.00,
+        images: [
+            'https://images.pexels.com/photos/5693889/pexels-photo-5693889.jpeg'
+        ],
+        description: 'Vibrant tie-dye pattern with a breezy casual sundress fit',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w16',
+        name: 'Sequin Cocktail Mini Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 155.00,
+        images: [
+            'https://images.pexels.com/photos/1755428/pexels-photo-1755428.jpeg'
+        ],
+        description: 'Dazzling all-over sequins with a playful mini length cut',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w17',
+        name: 'Smocked Boho Sundress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 70.00,
+        images: [
+            'https://images.pexels.com/photos/2220316/pexels-photo-2220316.jpeg'
+        ],
+        description: 'Elastic smocked bodice with breezy bohemian floral hem',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w18',
+        name: 'One-Shoulder Crepe Gown',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 210.00,
+        images: [
+            'https://images.pexels.com/photos/3622597/pexels-photo-3622597.jpeg'
+        ],
+        description: 'Dramatic one-shoulder silhouette in flowing matte crepe',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w19',
+        name: 'Denim Pinafore Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 80.00,
+        images: [
+            'https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg'
+        ],
+        description: 'Casual denim pinafore with adjustable straps and side pockets',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w20',
+        name: 'Burnout Velvet Slip Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 135.00,
+        images: [
+            'https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg'
+        ],
+        description: 'Delicate burnout velvet pattern over satin slip lining',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'w21',
+        name: 'Organza Puff Sleeve Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 160.00,
+        images: [
+            'https://images.pexels.com/photos/3621117/pexels-photo-3621117.jpeg'
+        ],
+        description: 'Romantic organza fabric with statement puffed balloon sleeves',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w22',
+        name: 'High-Low Hem Shirt Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 88.00,
+        images: [
+            'https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg'
+        ],
+        description: 'Relaxed shirt dress silhouette with a stylish high-low hemline',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w23',
+        name: 'Crochet Beach Cover Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 65.00,
+        images: [
+            'https://images.pexels.com/photos/3759082/pexels-photo-3759082.jpeg'
+        ],
+        description: 'Handcrafted crochet knit perfect as a beach cover-up dress',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w24',
+        name: 'Ombre Chiffon Maxi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 145.00,
+        images: [
+            'https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg'
+        ],
+        description: 'Gradient ombre dye effect cascading down a full chiffon maxi',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w25',
+        name: 'Leather Look Pencil Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 120.00,
+        images: [
+            'https://images.pexels.com/photos/2220317/pexels-photo-2220317.jpeg'
+        ],
+        description: 'Sleek faux-leather pencil dress with a bold contemporary edge',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w26',
+        name: 'Swiss Dot Midi Tea Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 95.00,
+        images: [
+            'https://images.pexels.com/photos/1844012/pexels-photo-1844012.jpeg'
+        ],
+        description: 'Vintage-inspired swiss dot fabric in a feminine tea-length cut',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w27',
+        name: 'Halter Neck Tropical Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 100.00,
+        images: [
+            'https://images.pexels.com/photos/3622601/pexels-photo-3622601.jpeg'
+        ],
+        description: 'Vibrant tropical print halter dress ideal for resort holidays',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w28',
+        name: 'Cut-Out Bodycon Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 115.00,
+        images: [
+            'https://images.pexels.com/photos/3812432/pexels-photo-3812432.jpeg'
+        ],
+        description: 'Figure-hugging bodycon with strategic side cut-out detailing',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w29',
+        name: 'Paperbag Waist Shirt Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 85.00,
+        images: [
+            'https://images.pexels.com/photos/5709662/pexels-photo-5709662.jpeg'
+        ],
+        description: 'Playful paperbag tied waist with a relaxed linen shirt silhouette',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w30',
+        name: 'Embroidered Folk Mini Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 110.00,
+        images: [
+            'https://images.pexels.com/photos/4916559/pexels-photo-4916559.jpeg'
+        ],
+        description: 'Colourful hand-style embroidery on a crisp white mini canvas',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'w31',
+        name: 'Wrap Maxi Jersey Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 90.00,
+        images: [
+            'https://images.pexels.com/photos/3622596/pexels-photo-3622596.jpeg'
+        ],
+        description: 'Effortless wrap style in soft jersey for all-day comfort and chic',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w32',
+        name: 'Tiered Ruffle Peasant Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 105.00,
+        images: [
+            'https://images.pexels.com/photos/4585185/pexels-photo-4585185.jpeg'
+        ],
+        description: 'Cascading ruffle tiers on a loose bohemian peasant silhouette',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w33',
+        name: 'Metallic Pleated Party Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 175.00,
+        images: [
+            'https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg'
+        ],
+        description: 'Eye-catching metallic sheen on a sleek knife-pleated party skirt',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w34',
+        name: 'Broderie Anglaise Sun Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 78.00,
+        images: [
+            'https://images.pexels.com/photos/3621120/pexels-photo-3621120.jpeg'
+        ],
+        description: 'Delicate broderie anglaise eyelet cotton in a fresh sundress cut',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w35',
+        name: 'Backless Satin Evening Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 195.00,
+        images: [
+            'https://images.pexels.com/photos/2220322/pexels-photo-2220322.jpeg'
+        ],
+        description: 'Glamorous low backless design in lustrous liquid satin fabric',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w36',
+        name: 'Ruched Satin Corset Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 185.00,
+        images: [
+            'https://images.pexels.com/photos/8386668/pexels-photo-8386668.jpeg'
+        ],
+        description: 'Boned corset bodice with ruched satin skirt for a dramatic look',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'w37',
+        name: 'Colourblock Mini Shift Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 98.00,
+        images: [
+            'https://images.pexels.com/photos/5707600/pexels-photo-5707600.jpeg'
+        ],
+        description: 'Bold colour-block panelling on a clean modern mini shift silhouette',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w38',
+        name: 'Prairie Floral Midi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 115.00,
+        images: [
+            'https://images.pexels.com/photos/6069552/pexels-photo-6069552.jpeg'
+        ],
+        description: 'Romantic prairie-style floral print with puffed shoulders and midi hem',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w39',
+        name: 'Knit Ribbed Bodycon Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 88.00,
+        images: [
+            'https://images.pexels.com/photos/7691069/pexels-photo-7691069.jpeg'
+        ],
+        description: 'Stretchy fine-rib knit that hugs every curve for a sleek silhouette',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w40',
+        name: 'Waterfall Hem Evening Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 165.00,
+        images: [
+            'https://images.pexels.com/photos/3622608/pexels-photo-3622608.jpeg'
+        ],
+        description: 'Cascading waterfall hemline in fluid georgette for evening events',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w41',
+        name: 'Abstract Print Wrap Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 92.00,
+        images: [
+            'https://images.pexels.com/photos/5709663/pexels-photo-5709663.jpeg'
+        ],
+        description: 'Artistic abstract print on a flattering adjustable wrap silhouette',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w42',
+        name: 'Sheer Sleeve Midi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 130.00,
+        images: [
+            'https://images.pexels.com/photos/4946601/pexels-photo-4946601.jpeg'
+        ],
+        description: 'Opaque body with delicate sheer long sleeves for subtle elegance',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: false,
+    },
+    {
+        id: 'w43',
+        name: 'Ruffled Hem Sundress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 72.00,
+        images: [
+            'https://images.pexels.com/photos/3621122/pexels-photo-3621122.jpeg'
+        ],
+        description: 'Playful ruffled hem on a breezy sleeveless summer sundress',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w44',
+        name: 'Velvet Midi Slip Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 140.00,
+        images: [
+            'https://images.pexels.com/photos/3065210/pexels-photo-3065210.jpeg'
+        ],
+        description: 'Luxurious crushed velvet fabric in a streamlined midi slip silhouette',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w45',
+        name: 'Striped Linen Shirt Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 85.00,
+        images: [
+            'https://images.pexels.com/photos/5709664/pexels-photo-5709664.jpeg'
+        ],
+        description: 'Relaxed striped linen shirt dress with belted waist and patch pockets',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w46',
+        name: 'Lace Overlay Cocktail Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 155.00,
+        images: [
+            'https://images.pexels.com/photos/1755429/pexels-photo-1755429.jpeg'
+        ],
+        description: 'Intricate lace overlay on a fitted cocktail dress with nude lining',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w47',
+        name: 'Balloon Sleeve Mini Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 108.00,
+        images: [
+            'https://images.pexels.com/photos/7691170/pexels-photo-7691170.jpeg'
+        ],
+        description: 'Trendy oversized balloon sleeves paired with a flirty mini length',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w48',
+        name: 'Draped Grecian Maxi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 178.00,
+        images: [
+            'https://images.pexels.com/photos/2681752/pexels-photo-2681752.jpeg'
+        ],
+        description: 'Elegant Grecian-inspired draping in lightweight jersey for tall grace',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w49',
+        name: 'Shirt-Dress with Belt',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 95.00,
+        images: [
+            'https://images.pexels.com/photos/5709665/pexels-photo-5709665.jpeg'
+        ],
+        description: 'Oversized button-down shirt dress cinched with a wide statement belt',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w50',
+        name: 'Chequered Tweed Mini Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 145.00,
+        images: [
+            'https://images.pexels.com/photos/7691172/pexels-photo-7691172.jpeg'
+        ],
+        description: 'Structured chequered tweed mini with gold button front detailing',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: true,
+    },
+    {
+        id: 'w51',
+        name: 'Cold Shoulder Maxi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 112.00,
+        images: [
+            'https://images.pexels.com/photos/3622602/pexels-photo-3622602.jpeg'
+        ],
+        description: 'Flowing maxi with cold-shoulder cut-outs and adjustable tie straps',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w52',
+        name: 'Floral Burnout Velvet Maxi',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 168.00,
+        images: [
+            'https://images.pexels.com/photos/3065211/pexels-photo-3065211.jpeg'
+        ],
+        description: 'Allover floral burnout velvet pattern on a sweeping maxi silhouette',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w53',
+        name: 'Polka Dot Wrap Midi Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 88.00,
+        images: [
+            'https://images.pexels.com/photos/5709666/pexels-photo-5709666.jpeg'
+        ],
+        description: 'Classic polka dot print on a flattering wrap midi with flutter hem',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+    {
+        id: 'w54',
+        name: 'Deep Plunge Bodysuit Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 135.00,
+        images: [
+            'https://images.pexels.com/photos/8386669/pexels-photo-8386669.jpeg'
+        ],
+        description: 'Daring deep-plunge neckline on a sculpted bodysuit-style mini dress',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: true,
+        isTrending: true,
+    },
+    {
+        id: 'w55',
+        name: 'Seersucker Puff Dress',
+        category: 'Women',
+        subCategory: 'Dresses',
+        price: 78.00,
+        images: [
+            'https://images.pexels.com/photos/6069553/pexels-photo-6069553.jpeg'
+        ],
+        description: 'Textured seersucker fabric with puff sleeves and a gathered waist',
+        sizes: ['XS', 'S', 'M', 'L'],
+        isNew: false,
+        isTrending: false,
+    },
+];
+
+// Fetch products from localStorage fallback
+export const fetchProducts = async() => {
+    return fallbackProducts;
+};
+
+// Fetch new products from localStorage fallback
+export const fetchNewProducts = async() => {
+    return fallbackProducts.filter(p => p.isNew);
+};
+
+// Fetch trending products from localStorage fallback
+export const fetchTrendingProducts = async() => {
+    return fallbackProducts.filter(p => p.isTrending);
+};
+
+// Legacy export for backward compatibility
+export const products = fallbackProducts;

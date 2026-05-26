@@ -1,0 +1,152 @@
+.shipping-returns-page {
+  padding: 120px 0 60px;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.shipping-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.shipping-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.shipping-header .subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.shipping-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.shipping-section {
+  margin-bottom: 60px;
+}
+
+.shipping-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
+
+.shipping-section p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+.shipping-section ul,
+.shipping-section ol {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 20px;
+  padding-left: 25px;
+}
+
+.shipping-section li {
+  margin-bottom: 10px;
+}
+
+.shipping-types {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.shipping-type {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shipping-type:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.shipping-type h3 {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.shipping-type p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.shipping-type p strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.shipping-details h3 {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.return-policy h3 {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.contact-info {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info p strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .shipping-returns-page {
+    padding: 100px 20px 40px;
+  }
+
+  .shipping-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .shipping-header .subtitle {
+    font-size: 1rem;
+  }
+
+  .shipping-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .shipping-types {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    padding: 20px;
+  }
+}
